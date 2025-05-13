@@ -1,0 +1,22 @@
+/* DonateButtoncss */
+
+.wave-container {
+  display: inline-block;
+}
+
+.wave-letter {
+  display: inline-block;
+  animation: waveJump 1.6s infinite ease-in-out;
+}
+
+@keyframes waveJump {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-6px);
+  }
+  60% {
+    transform: translateY(3px);
+  }
+}
